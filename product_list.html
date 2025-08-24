@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Store</title>
+  <link rel="stylesheet" href="./product_css.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1> Tech Dukaan</h1>
+      <div class="filters">
+        <div class="filter-group">
+          <label for="ratingFilter">Rating:</label>
+          <select id="ratingFilter">
+            <option value="0">All</option>
+            <option value="3">3★ & Up</option>
+            <option value="4">4★ & Up</option>
+            <option value="5">5★ Only</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="sortPrice">Sort:</label>
+          <select id="sortPrice">
+            <option value="default">Default</option>
+            <option value="lowToHigh">Price: Low to High</option>
+            <option value="highToLow">Price: High to Low</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main class="product-grid" id="productGrid">
+    </main>
+  </div>
+
+  <script src="./product.js"></script>
+</body>
+</html>

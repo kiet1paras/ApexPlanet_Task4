@@ -1,0 +1,96 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8 em;
+    color: #666;
+    border: 2px solid vl;
+    
+}
+
+.pimg1 {
+    background-image: url(./1850070.jpg);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(./2257357.jpg);
+    min-height: 400px
+}
+
+.pimg3 {
+    background-image: url(./5495967.jpg);
+    min-height: 400px
+}
+
+.pimg4 {
+    background-image: url(./328893.jpg);
+    min-height: 100%
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.textbg {
+    background-color: white;
+    padding: 20px;
+}
+
+.firstpara {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    line-height: 1.7em;
+}
+
+.Secondpara {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: rgb(248, 244, 244);
+    color: black;
+    line-height: 1.7em;
+}
+
+.thirdpara {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 1.7em;
+}
+
+#hi {
+    color: blue;
+}
+
+#mar {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-weight: bolder;
+
+}
